@@ -1,0 +1,267 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color:rgb(194, 125, 218);;
+
+
+}
+
+
+header {
+    color: rgb(240, 226, 145); 
+    font-size: 3rem;
+    font-weight: 200;
+    font-family: 'Dancing Script, sans-serif';
+    font-style: oblique;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+
+#titsec {
+    color: rgb(240, 226, 145);
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#titsec2 {
+
+    color: rgb(240, 226, 145);
+    font-weight: lighter;
+    text-align: center;
+}
+       
+
+
+.title {
+    color: rgb(240, 226, 145)ange;
+}
+
+#descripcion {
+    color: rgb(240, 226, 145);
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+#desc2 {
+    text-align: center;
+}
+/*ASI SE ESCRIBEN LOS COMENTARIOS*/
+
+
+p {
+    font-family:  'Bebas Neue', sans-serif; 
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+
+
+
+#box1 {
+    background-color: rgb(240, 226, 145);
+    min-width: 300px;
+    max-width: 300px;
+    border-style: solid;
+    border-color: saddlebrown;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home3 {
+        background-color: rgb(240, 226, 145);
+        padding: 10px;
+       
+        min-width: 100vw;
+        color: rgb(194, 125, 218);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: row wrap;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration-style: none;
+        justify-content: center;
+
+          
+    
+}
+
+
+    
+    .home3 div {
+        
+        padding: auto;
+        background-color: rgb(240, 226, 145);
+    
+       
+        display: flex;
+        flex-direction: row;
+        flex-wrap: row wrap;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    
+        color: rgb(194, 125, 218);
+        text-decoration-style: bold;
+
+     
+        }
+
+.home3 div:hover {
+    font-size: 120%;
+}
+
+
+#tabla {
+    text-align: center;
+}
+
+#contact {
+   color: rgb(240, 226, 145)
+}
+
+.deliver-menu {
+    color: rgb(240, 226, 145)
+ }
+
+ #deal {
+    color: rgb(240, 226, 145)
+ }
+
+ #store {
+    color: rgb(240, 226, 145)
+ }
+ 
+ #deliver-menu-title {
+     color: rgb(240, 226, 145);
+     font-family: 'Bebas Neue';
+
+}
+
+footer {
+    text-align: center;
+    color: rgb(240, 226, 145);
+    font-size: 3rem;
+
+}
+
+.grid-container {
+    background-color: rgb(240, 226, 145);
+    color:rgb(194, 125, 218);
+    max-width: 900px;
+    min-width: 900px;
+    min-height: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+    border: solid 15px rgb(194, 125, 218);
+    justify-content: space-evenly;
+    text-align: center;
+    justify-items: center;
+
+    grid-template-areas: 
+    'nav nav nav'
+    'main main main'
+    'footer footer footer';
+
+    
+ 
+
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    max-height: 50%;
+    max-width: 50%
+
+}
+
+.cm2021 {
+    background-color: rgb(240, 226, 145);
+    padding: 10px;
+   
+    min-width: 100vw;
+    color: rgb(194, 125, 218);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-decoration-style: none;
+    justify-content: center;
+
+
+}
+
+
+.off { 
+    background-color: rgb(240, 226, 145);
+    padding: 10px;
+    width: fit-content;
+    font-size: 7rem;
+    text-decoration-color: rgb(194, 125, 218);
+   
+    color: rgb(194, 125, 218);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    justify-content: center;
+
+    transition: all 1s ease-in-out;
+
+
+
+}
+
+.discount {
+   text-decoration-color: auto;
+   text-decoration-style: none;
+   color: rebeccapurple;
+  
+
+}
+
+.off:hover {
+    background-color: rgb(194, 125, 218);
+    color: rgb(240, 226, 145);
+
+}
+
+.discount:hover {
+    color: rgb(240, 226, 145);
+    font-size: 110%;
+}
+
+
+
+ 
+/* ARRIBA - DERECHA - ABAJO - IZQUIERDA */ 
+   
+
+
+
+

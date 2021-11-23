@@ -1,0 +1,149 @@
+html {
+  
+  
+    
+}
+
+body {
+
+    font-family: 'Bebas Neue', cursive; 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Varela Round', sans-serif;
+    background: none;
+
+ 
+    
+
+
+}
+
+header {
+    opacity: 0.8;
+    background: ivory;
+    text-align: center;
+    justify-content: center;
+    border: solid violet;
+
+}
+header h1 {
+    font-size: 4 rem;
+    color: #de95de;
+    width: auto;
+    text-align: center;
+    background: none;
+    flex: auto;
+    position: relative;
+    
+  
+    
+}
+
+header h2 {
+    
+    font-size: 3 rem;
+    color: #de95de;
+   
+    width: auto;
+    height: auto;
+
+    text-align: center;
+
+}
+
+.button {
+    font-size: 3rem;
+    width: 100vw;
+    height: auto;
+    opacity: 0.8;
+    background: ivory;
+    color: #de95de;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+
+
+.button:hover {
+   
+    
+}
+.space {
+    width: 100vw;
+    max-height: 50px;
+    min-height: 10px;
+}
+
+.link {
+    color: #de95de;
+}
+
+.a {
+    text-align: center;
+    color: white;
+}
+
+.msj {
+    font-size: 2rem;
+    color: #de95de;
+    text-align: center;
+}
+
+.eleccion {
+    font-weight: normal;
+    color: blueviolet;
+}
+
+.imgflor {
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+div.img{
+    display:table;
+  }
+  div.img img{
+   margin:0;
+   padding:0;
+  }
+  div.img span{
+   line-height:normal;
+   font-size:11px;
+   display:table-caption;
+   margin:0;
+   background:#646464;
+   color:white;
+   font-style:italic;
+   padding:5px;
+   text-align:center;
+  }
+
+  .grid-container {
+    
+  
+   
+   
+    display: grid;
+    grid-template-columns: max-content;
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+    justify-content: space-evenly;
+    text-align: center;
+    justify-items: center;
+
+  }
+
+main {
+    max-width: 100vw;
+}
